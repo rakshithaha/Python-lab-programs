@@ -1,0 +1,7 @@
+a=float(input('Enter the coefficient of xsquare'))
+b=float(input('Enter the coefficient of x'))
+c=float(input('Enter the constant'))
+x=(-b+(b*b-(4*a*c))**0.5)/(2*a)
+y=(-b-(b*b-(4*a*c))**0.5)/(2*a)
+print(x)
+print(y)
