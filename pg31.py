@@ -1,0 +1,15 @@
+import statistics
+a=list()
+number=int(input("Enter the number of elements"))
+print("Enter the numbers in the list")
+for i in range(int(number)):
+    n=input("number:")
+    a.append(int(n))
+print("Given list is:")
+print(a)
+m=statistics.mean(a)
+v=statistics.variance(a)
+st=statistics.stdev(a)
+print("Mean:",m)
+print("Variance:",v)
+print("Standard Deviation:",st)
