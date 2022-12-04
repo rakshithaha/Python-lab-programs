@@ -1,0 +1,5 @@
+num=input("Enter the numbers")
+num_split=num.split(',')
+num_tuple=tuple(num_split)
+print(num_tuple)
+print(num_split)
